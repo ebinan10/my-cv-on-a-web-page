@@ -1,0 +1,143 @@
+
+body
+{
+	background-color: #ccc;
+	font-style: tahoma,sans-serif;
+	font-size: 1.2em;
+	line-height: 1.3em;
+
+}
+#header
+{
+	font-style: italic;
+	text-align: center;
+	border-bottom: 2px solid white;
+}
+
+.nav-bar ul li a
+{
+	padding: 3px;	
+	text-decoration: none;
+}
+.nav-bar ul
+{
+	list-style: none;
+
+}
+.content
+{
+	text-align: center;
+	font-size: 1.0em;
+	font-style: bold;
+}
+.unique
+{
+	background-color: white;
+	color: black;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 1px;
+	border:1px dotted #000;
+}
+a
+{
+	font-size: 1.1em;
+}
+.nav-bar ul li a:hover{
+	color: pink;
+}
+img
+{
+	
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+
+
+}
+#contact p
+{
+	font-style: italic;
+}
+
+#footer
+{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 3px;
+	border: 1px dotted black;
+	font-size: 1.6em;
+	width: 80%
+	margin:auto;
+}
+@media(min-width:800px){
+.nav-bar ul
+{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.main
+{
+	width:55%;
+	float: right;
+}
+.side
+{
+	width: 30%;
+	float: left;
+}
+.design
+{
+	border-bottom: 2px solid white;
+}
+.container 
+{
+	display: flex;
+	justify-content: space-around;
+	}}
+	@media(max-width: 800px)
+	{
+		body{
+			text-align: center;
+			font-size: 1.1em
+		}
+		#header{
+			border-bottom: 2px solid white;
+		}
+		.nav-bar ul
+{
+	width: 97%;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10px;
+
+}
+	}
+	@media(max-width: 650px)
+	{
+		body{
+			text-align: center;
+			font-size: 1.0em;
+		}
+		#header{
+			border-bottom: 2px solid white;
+		}
+		.nav-bar ul
+{
+	background-color: white;
+	
+	width: 97%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-right: 10px;
+
+}
+.nav-bar ul li a
+{
+	color: black;
+	}}
