@@ -304,6 +304,7 @@ section h2{
 ========================== */
 
 .experience-card{
+    margin-bottom:30px;
     background:var(--card);
     border:1px solid var(--border);
     padding:30px;
@@ -371,7 +372,7 @@ section h2{
 }
 
 .spring{
-    background:#17b981;
+    background:#ccc;
 }
 
 /* ==========================

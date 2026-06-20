@@ -36,7 +36,9 @@ const words = [
     "Information Systems Analyst",
     "Web Developer",
     "React Developer",
-    "Technology Professional"
+    "Technology Professional",
+    "Spring Boot/ Java Developer",
+    "Nodejs Developer"
 ];
 
 let wordIndex = 0;
@@ -313,6 +315,10 @@ function animateSkills() {
         document.querySelector(
             ".node"
         ).style.width = "80%";
+
+        document.querySelector(
+                    ".spring"
+                ).style.width = "75%";
     }
 }
 
